@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="/libraries/boostrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/libraries/bootstrap-icons/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caramel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
+</head>
+<body >
+
+    <div class="banner" onload="slider()">
+        <div class="slider">
+            <img src="/images/about-e1583826839735.jpg" alt="" id="slideImg">
+        </div>
+        <div class="overlay">
+            <nav  >
+                <a href="#">
+                    <img src="/images/logo-griya-sehat-onljne-01.png" alt="">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                    <ul>
+                        <li  class="active"> <a href="">HOME</a> </li>
+                        <li> <a href="about.html">ABOUT US</a> </li>
+                        <li> <a href="service.html">OUR SERVICES</a> </li>
+                       
+                        <li> <a href="contack.html">CONTACT</a> </li>
+                    </ul>
+                </div>
+                <i class="bi bi-list" onclick="showMenu()"></i>
+            </nav>
+        </div>
+        <div class="text-box" >
+            <h1 style="font-family: 'Caramel'"> Griya Sehat</h1>
+            <p>Griya Sehat menyediakan jasa pijat dan perawatan tubuh yang dapat Anda pesan secara online
+            </p>
+            <a href="" class="hero-btn">Read More</a>
+        </div>
+       
+    </div>
+
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-sm-12" data-aos="fade-right" data-aos-duration="1000">
+                    <h4 class="heading">SERVICE &
+
+                        PRICING</h4>
+                    
+                </div>
+
+                <div class="col-lg-3 col-sm-6 service-box" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div class="service-item">
+                        <figure>
+                            <img src="/images/service01.png" alt="" class="img-fluid">
+                            <figcaption>
+                                <div class="inner-text">
+                                    <a href="#" class="boxes-btn">Book now </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <h5 class="pt-2">Lulur 2 jam</h5>
+                        <p class="py-2" style="color: black;"> Loren Ipsum is ismply dummy text of the printing and typesetting.</p>
+                        <h6 class="service-price">Rp. 250.000,00</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 service-box" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div class="service-item">
+                        <figure>
+                            <img src="/images/service02.png" alt="" class="img-fluid">
+                            <figcaption>
+                                <div class="inner-text">
+                                    <a href="#" class="boxes-btn">Book now </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <h5 class="pt-2">Reflexology Happy Hour</h5>
+                        <p class="py-2" style="color: black;"> Loren Ipsum is ismply dummy text of the printing and typesetting.</p>
+                        <h6 class="service-price">
+                            Rp 55.000,00</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 service-box" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div class="service-item">
+                        <figure>
+                            <img src="/images/service03.png" alt="" class="img-fluid">
+                            <figcaption>
+                                <div class="inner-text">
+                                    <a href="#" class="boxes-btn">Book now </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <h5 class="pt-2">Kerok</h5>
+                        <p class="py-2" style="color: black;"> Loren Ipsum is ismply dummy text of the printing and typesetting.</p>
+                        <h6 class="service-price">Rp 25.000,00</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 service-box" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div class="service-item">
+                        <figure>
+                            <img src="/images/service06.png" alt="" class="img-fluid">
+                            <figcaption>
+                                <div class="inner-text">
+                                    <a href="#" class="boxes-btn">Book now </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <h5 class="pt-2">Oil Message</h5>
+                        <p class="py-2" style="color: black;"> Loren Ipsum is ismply dummy text of the printing and typesetting.</p>
+                        <h6 class="service-price">
+                            Rp 110.000,00</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Opening Hours</h5>
+                    <ul class="list-unstyled" >
+                        <li><i class="bi bi-clock-fill"> Monday to Friday - 9a to 9pm</i></li>
+                        <li><i class="bi bi-clock-fill"> Saturday - 9a to 17pm</i></li>
+                       
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li> <i class="bi bi-envelope"></i> Email : griyasehat@gmai.com</li>
+                        <li> <i class="bi bi-telephone-fill"></i> Phone : +6281222333444</li>
+                       
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Informasi </h5>
+                    <ul>
+                        <li><a style="color: #fff;" href="#">About Us</a></li>
+                        <li><a style="color: #fff;" href="#">FAQ</a></li>
+                        <li><a style="color: #fff;" href="#">Contact</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+           
+            <iframe id="map-container" frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7934.222026198058!2d106.776563!3d-6.115755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x388d76474dec231d!2sGRIYA%20SEHAT%20Reflexology%20%26%20Shiatsu%20Modern%20Keluarga%20cabang%20Muara%20Karang!5e0!3m2!1sid!2sid!4v1632129051253!5m2!1sid!2sid" >
+            </iframe>
+        </div>
+        <div class="social-networks">
+            <a href="#" class="twitter"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="google"><i class="bi bi-instagram"></i></a>
+        </div>
+     
+    </footer>
+
+
+
+
+
+
+<script src="/libraries/boostrap/js/bootstrap.js"></script>
+<script src="/libraries/jquery/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+<script>
+    var navLinks=document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+<script>
+     var slideImg = document.getElementById("slideImg");
+
+var images= new Array(
+"/images/gallery2.jpg",
+"/images/gallery8.jpg",
+"/images/gallery9.jpg"
+);
+var len =images.length;
+var i=0;
+
+function slider(){
+if (i > len-1){
+    i=0;
+}
+slideImg.src=images[i];
+i++;
+setTimeout('slider()', 3000);
+}
+</script>
+
+
+</body>
+</html>
